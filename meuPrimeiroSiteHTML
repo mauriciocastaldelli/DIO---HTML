@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Meu primeiro HTML </title>
+    </head>
+    <body> 
+        <h1> Anotações HTML </h1>
+        <hr>
+        <h2> Índice </h2>
+        <ul>
+            <a href="#html"><li> O que é HTML? </li></a>
+            <a href="#tags"><li> O que são tags? </li></a>
+            <a href="#texto"><li> Formatação de Texto </li></a>
+            <a href="#listas"><li> Listas </li></a>
+            <a href="#links"><li> Links </li></a>
+            
+        </ul>
+        <hr>
+        <ol>
+            <li id="#html"><h3>O que é HTML?</h3></li>
+            <i> Hyper Text Markup Language </i>
+            <p> Trata-se de uma <strong>linguagem de marcação.</strong> </p>
+            <p> Linguagem de Marcação ≠ Linguagem de Programação </p>
+            <p> Descreve para o navegador a estrutura de uma página. </p>
+            <hr>
+        
+            <li id="tags"><h3>O que são tags?</h3></li>
+            <p> São elementos que dizem ao navegador como exibir conteúdos. </p>
+            <p> Tags geralmente seguem o modelo: &lt;tag inicial&gt; conteudo &lt;tag de fechamento&gt;</p>
+            <p> No entanto, existem algumas <u>tags vazias</u>, ou seja, que não possuem a tag de fechamento.</p>
+            <p> Elas podem ter <strong>atributos</strong> que incrementam alguma informação sobre elas.</p>
+            <hr>
+
+            <li id="atributos"><h3>Atributos</h3></li>
+            <p> Todo elemento HTML <u>pode ter atributos.</u> </p>
+            <p> Atributos fornecem informações complementares para os elementos. </p>
+            <p> Sempre estão localizados na tag inicial. </p>
+            <p> A sintaxe é: <strong>nome="valor"</strong></p>
+            <strong>Atributos comuns: </strong>
+                <ul>
+                    <li> width </li>
+                    <li> height </li>
+                    <li> href </li>
+                    <li> id </li>
+                    <li> class </li>
+                </ul>
+            <hr>
+
+            <li id="texto">
+                <h3>Formatação de Texto</h3>
+                <ul>
+                    <li> &lt;h1&gt; ... &lt;/h6&gt; <h4> Títulos </h4></li>
+                    <li> &lt;p&gt; <p>Paragráfos</p></li>
+                    <li> &lt;mark&gt; <mark>Marca-texto</mark></li>
+                    <li> &lt;small&gt; <small>Texto Pequeno</small></li>
+                    <li> &lt;i&gt; <i>Texto em Itálico</i></li>
+                    <li> &lt;u&gt; <u>Texto sublinhado</u></li>
+                    <li> &lt;strong&gt; <strong>Texto em negrito</strong></li>
+                    <li> &lt;sub&gt; <sub>Texto inferior</sub></li>
+                    <li> &lt;sup&gt; <sup>Texto superior</sup></li>
+                    <li> &lt;blockquote&gt; <blockquote>Citação</blockquote></li>
+                    <li> &lt;abbr&gt; <abbr> ABREV. </abbr> - Abreviação</li>
+                    <li> &lt;br&gt; Quebra de linha / <sub>tag vazia</sub></li>
+                    <li> &lt;hr&gt; Linha Horizontal / <sub>tag vazia</sub></li>
+                </ul>
+            </li>
+            <hr>
+            
+            <li id="listas">
+                <h3>Listas</h3>
+                <h4>Lista Não-Ordenada</h4>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <h4>Lista Ordenada</h4>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </li>
+            <hr>
+
+            <li id="links">
+                <h3>Links</h3>
+                <strong>Para sites externos:</strong>
+                <p> &lt;a href="http://url.com.br"&gt; Conteúdo que ativará o link &lt;/a&gt; </p>
+                <strong>Para sites internos:</strong>
+                <p> &lt;a href="/caminhodoarquivo"&gt; Conteúdo que ativará o link &lt;/a&gt; </p>
+                <strong>Para partes do seu site:</strong>
+                <p> &lt;a href="#idDaTagAlvo"&gt; Conteúdo que ativará o link &lt;/a&gt; </p>
+            
+                <strong>Atributos comuns:</strong>
+                <ul>
+                    <li>href="caminho do link"</li>
+                    <li>title="dica para o usuário"</li>
+                    <li>target="_blank para novas abas"</li>
+                    <li>target="_self para na mesma aba"</li>
+                </ul>
+            </li>
+            <hr>
+        
+        
+        </ol>
+
+
+        
+      
+    </body>
+</html>
